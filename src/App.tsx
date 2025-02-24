@@ -413,51 +413,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div>
-                <form 
-                  name="contact" 
-                  method="POST" 
-                  data-netlify="true" 
-                  netlify-honeypot="bot-field"
-                  className="space-y-4"
-                >
-                  <input type="hidden" name="form-name" value="contact" />
-                  <p className="hidden">
-                    <label>
-                      Don't fill this out if you're human: <input name="bot-field" />
-                    </label>
-                  </p>
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder={t('name')}
-                    required
-                    className="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-400 focus:outline-none focus:border-blue-500"
-                  />
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder={t('email')}
-                    required
-                    className="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-400 focus:outline-none focus:border-blue-500"
-                  />
-                  <textarea
-                    name="message"
-                    placeholder={t('message')}
-                    required
-                    rows={4}
-                    className="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-400 focus:outline-none focus:border-blue-500"
-                  ></textarea>
-                  <button 
-                    type="submit"
-                    className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
-                  >
-                    {t('sendMessage')}
-                  </button>
-                </form>
-              </div>
-            </div>
-            <div className="mt-8">
+              
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2236.0374567012466!2d12.2955583!3d55.9276111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524366f9e8b1e9%3A0x7f0c4c0f5e5c5c5c!2sFredensvej%2017%2C%203400%20Hiller%C3%B8d%2C%20Denmark!5e0!3m2!1sen!2sdk!4v1625123456789!5m2!1sen!2sdk"
                 width="100%"
@@ -468,7 +424,9 @@ function App() {
                 referrerPolicy="no-referrer-when-downgrade"
                 className="shadow-lg"
               ></iframe>
+              
             </div>
+           
           </div>
         </div>
 
