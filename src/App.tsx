@@ -137,7 +137,7 @@ function App() {
             >
               {t('contact')}
             </a>
-            <div className={`md:flex space-x-4 transition-colors duration-300 ${
+            <div className={`space-x-4 transition-colors duration-300 ${
             scrollPercentage > 1 ? 'text-gray-800' : 'text-white'
           }`}>
             <a href="https://www.facebook.com/people/G-Teknik-ApS/100063713580343/#" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
