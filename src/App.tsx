@@ -265,7 +265,7 @@ function App() {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    { icon: <Wrench className="w-12 h-12 text-blue-600" />, title: 'plumbingTasks', description: 'plumbingDesc' },
+                    { icon: <img src="https://github.com/othsma/kmk-mobile/blob/main/src/service1.png?raw=true" alt="Service 1 Icon" />, title: 'plumbingTasks', description: 'plumbingDesc' },
                     { icon: <Shower className="w-12 h-12 text-blue-600" />, title: 'bathroomInstallation', description: 'bathroomDesc' },
                     { icon: <Droplets className="w-12 h-12 text-blue-600" />, title: 'waterTreatment', description: 'waterDesc' },
                     { icon: <Flame className="w-12 h-12 text-blue-600" />, title: 'heatSources', description: 'heatDesc' },
