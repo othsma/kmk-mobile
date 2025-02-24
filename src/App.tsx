@@ -101,7 +101,7 @@ function App() {
           <div className="flex-shrink-0">
             {scrollPercentage > 1 ? 
               <img src="https://github.com/othsma/kmk-mobile/blob/main/src/altLogo.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" /> : 
-              <img src="https://github.com/othsma/kmk-mobile/blob/main/src/logo.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" />
+              <img src="https://github.com/othsma/kmk-mobile/blob/main/src/logo2.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" />
             }
           </div>
           <div className={`hidden md:flex space-x-8 transition-colors duration-300 ${
