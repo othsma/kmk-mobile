@@ -215,7 +215,7 @@ function App() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12 md:mt-24">
                   <button 
                     className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition text-lg"
-                    onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+                    onClick={() => window.open('https://www.instagram.com', '_blank')}
                   >
                     {t('latestProject')}
                   </button>
