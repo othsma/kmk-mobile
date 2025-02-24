@@ -274,7 +274,7 @@ function App() {
                   ].map((service, index) => (
                     <div
                       key={index}
-                      className="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-500 ease-out"
+                      className="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-500 ease-out flex flex-col items-center text-center"
                       style={{
                         opacity: servicesInView ? 1 : 0,
                         transform: servicesInView ? 'translateY(0)' : 'translateY(20px)',
