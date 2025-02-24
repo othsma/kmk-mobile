@@ -266,11 +266,11 @@ function App() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
                     { icon: <img src="https://github.com/othsma/kmk-mobile/blob/main/src/service1.png?raw=true" alt="Service 1 Icon" />, title: 'plumbingTasks', description: 'plumbingDesc' },
-                    { icon: <Shower className="w-12 h-12 text-blue-600" />, title: 'bathroomInstallation', description: 'bathroomDesc' },
-                    { icon: <Droplets className="w-12 h-12 text-blue-600" />, title: 'waterTreatment', description: 'waterDesc' },
-                    { icon: <Flame className="w-12 h-12 text-blue-600" />, title: 'heatSources', description: 'heatDesc' },
-                    { icon: <Building2 className="w-12 h-12 text-blue-600" />, title: 'newConstruction', description: 'constructionDesc' },
-                    { icon: <PaintBucket className="w-12 h-12 text-blue-600" />, title: 'energyTasks', description: 'energyDesc' },
+                    { icon: <img src="https://github.com/othsma/kmk-mobile/blob/main/src/service2.png?raw=true" alt="Service 2 Icon" />, title: 'bathroomInstallation', description: 'bathroomDesc' },
+                    { icon: <img src="https://github.com/othsma/kmk-mobile/blob/main/src/service3.png?raw=true" alt="Service 3 Icon" />, title: 'waterTreatment', description: 'waterDesc' },
+                    { icon: <img src="https://github.com/othsma/kmk-mobile/blob/main/src/service4.png?raw=true" alt="Service 4 Icon" />, title: 'heatSources', description: 'heatDesc' },
+                    { icon: <img src="https://github.com/othsma/kmk-mobile/blob/main/src/service5.png?raw=true" alt="Service 5 Icon" />, title: 'newConstruction', description: 'constructionDesc' },
+                    { icon: <img src="https://github.com/othsma/kmk-mobile/blob/main/src/service6.png?raw=true" alt="Service 6 Icon" />, title: 'energyTasks', description: 'energyDesc' },
                   ].map((service, index) => (
                     <div
                       key={index}
