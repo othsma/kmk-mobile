@@ -104,40 +104,7 @@ function App() {
               <img src="https://github.com/othsma/kmk-mobile/blob/main/src/logo2.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" />
             }
           </div>
-          <div className={`hidden md:flex space-x-8 transition-colors duration-300 ${
-            scrollPercentage > 1 ? 'text-gray-800' : 'text-white'
-          }`}>
-            <a 
-              href="#about" 
-              className="hover:text-blue-400 transition"
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
-              }}
-            >
-              {t('about')}
-            </a>
-            <a 
-              href="#services" 
-              className="hover:text-blue-400 transition"
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
-              }}
-            >
-              {t('services')}
-            </a>
-            <a 
-              href="#contact" 
-              className="hover:text-blue-400 transition"
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-              }}
-            >
-              {t('contact')}
-            </a>
-            <div className={`space-x-4 transition-colors duration-300 ${
+          <div className={`space-x-4 transition-colors duration-300 ${
             scrollPercentage > 1 ? 'text-gray-800' : 'text-white'
           }`}>
             <a href="https://www.facebook.com/people/G-Teknik-ApS/100063713580343/#" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
@@ -146,7 +113,6 @@ function App() {
             <a href="https://www.instagram.com/kmkvvsaps" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
               <FontAwesomeIcon icon={faInstagram} size="lg" />
             </a>
-          </div>
           </div>
         </div>
       </nav>
