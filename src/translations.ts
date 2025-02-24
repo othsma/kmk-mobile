@@ -14,7 +14,7 @@ export const translations: Translations = {
     // Hero Section
     heroTitle: 'Din Autoriserede VVS & VE Installatør',
     heroSubtitle: 'Din betroede partner til alle VVS-, varme- og renoveringsopgaver',
-    latestProject: 'Lattest Projects',
+    latestProject: 'Seneste Projekter',
     contactUs: 'Kontakt Os',
 
     // Services Section
@@ -22,8 +22,8 @@ export const translations: Translations = {
     servicesSubtitle: 'Omfattende løsninger til alle dine VVS-behov',
     
     // Service Items
-    plumbingTasks: 'VVS-opgaver',
-    plumbingDesc: 'Ekspertløsninger til alle dine VVS-behov, fra reparationer til vedligeholdelse.',
+    plumbingTasks: 'Renoverings opgaver',
+    plumbingDesc: 'Hus eller lejlighed, vi hjælper med udførelse af nye vand, afløb og varme installationer.',
     bathroomInstallation: 'Badeværelser',
     bathroomDesc: 'Vi har stor erfaring med udførelse af badeværelser, vi rådgiver og guider jer igennem hele forløbet for at få det bedste resultat og det badeværelse i ønsker',
     waterTreatment: 'Vandbehandlingsanlæg',
@@ -59,12 +59,12 @@ export const translations: Translations = {
 
     // Contact Section
     contactTitle: 'Kontakt Os',
-    contactDesc: 'Kontakt os for alle dine VVS- og installationsbehov. Vi er her for at hjælpe!',
+    contactDesc: 'Kontakt os for dine VVS- og installationsbehov. Vi er her for at hjælpe!',
     name: 'Dit Navn',
     email: 'Din Email',
     message: 'Din Besked',
     sendMessage: 'Send Besked',
-    adress: 'Fredensvej 17, 3400 Hillerød, Denmark',
+    vat: 'CVR: 38016164',
 
     // Footer
     copyright: '© 2025 KMK VVS. Alle rettigheder forbeholdes.',
@@ -87,8 +87,8 @@ export const translations: Translations = {
     servicesSubtitle: 'Comprehensive solutions for all your plumbing needs',
     
     // Service Items
-    plumbingTasks: 'Plumbing Tasks',
-    plumbingDesc: 'Expert solutions for all your plumbing needs, from repairs to maintenance.',
+    plumbingTasks: 'Renovation Tasks',
+    plumbingDesc: 'House or apartment, we help with the implementation of new water, drainage and heating installations.',
     bathroomInstallation: 'Bathrooms',
     bathroomDesc: 'We have extensive experience in bathroom construction, we advise and guide you throughout the entire process to get the best result and the bathroom you want',
     waterTreatment: 'Water Treatment System',
@@ -129,7 +129,7 @@ export const translations: Translations = {
     email: 'Your Email',
     message: 'Your Message',
     sendMessage: 'Send Message',
-    adress: 'Fredensvej 17, 3400 Hillerød, Denmark',
+    vat: 'CVR: 38016164',
 
     // Footer
     copyright: '© 2025 KMK VVS. All rights reserved.',

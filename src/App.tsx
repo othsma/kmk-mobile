@@ -12,6 +12,7 @@ import {
   PaintBucket,
   Phone,
   Mail,
+  Info,
   MapPin,
 } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
@@ -36,7 +37,7 @@ function App() {
 
   const images = [
     "https://images.unsplash.com/photo-1638799869566-b17fa794c4de?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80",
-    "https://images.unsplash.com/photo-1482731215275-a1f151646268?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80"
+    "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80"
   ];
 
   useEffect(() => {
@@ -261,7 +262,7 @@ function App() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                   <div className="relative h-[600px] rounded-lg overflow-hidden">
                     <img 
-                      src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80" 
+                      src="https://images.unsplash.com/photo-1642014586226-6de3da27a974?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80" 
                       alt="KMK VVS Team"
                       className="absolute inset-0 w-full h-full object-cover"
                     />
@@ -301,7 +302,7 @@ function App() {
               </div>
 
               {/* Why Choose Us Section */}
-              <div className="bg-white rounded-2xl shadow-2xl p-8 transform hover:-translate-y-1 transition-all duration-300">
+              <div id="why-choose-us" className="bg-white rounded-2xl shadow-2xl p-8 transform hover:-translate-y-1 transition-all duration-300">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                   <div>
                     <h2 className="text-4xl font-bold mb-6">{t('whyChooseUs')}</h2>
@@ -352,22 +353,11 @@ function App() {
                     <span>kmk@kmkvvs.dk</span>
                   </div>
                   <div className="flex items-center">
-                    <MapPin className="w-6 h-6 mr-4" />
-                    <span>{t('adress')}</span>
+                    <Info className="w-6 h-6 mr-4" />
+                    <span>{t('vat')}</span>
                   </div>
                 </div>
               </div>
-              
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2236.0374567012466!2d12.2955583!3d55.9276111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524366f9e8b1e9%3A0x7f0c4c0f5e5c5c5c!2sFredensvej%2017%2C%203400%20Hiller%C3%B8d%2C%20Denmark!5e0!3m2!1sen!2sdk!4v1625123456789!5m2!1sen!2sdk"
-                width="100%"
-                height="300"
-                style={{ border: 0, borderRadius: '0.5rem' }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="shadow-lg"
-              ></iframe>
               
             </div>
            
@@ -376,8 +366,11 @@ function App() {
 
         {/* Footer */}
         <footer className="bg-gray-900 text-gray-400 py-8">
+          
           <div className="container mx-auto px-6">
+            
             <div className="flex flex-col md:flex-row justify-between items-center">
+              
               <p>{t('copyright')}</p>
               <div className="mt-4 md:mt-0 flex items-center space-x-4">
                 <span>{t('language')}:</span>
