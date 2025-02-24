@@ -301,7 +301,7 @@ function App() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                     <div className="absolute bottom-0 left-0 right-0 p-8">
                       <div className="bg-blue-600 text-white px-6 py-4 rounded-lg inline-block">
-                        <p className="text-2xl font-bold">15+ {t('yearsExperience')}</p>
+                        <p className="text-2xl font-bold">7+ {t('yearsExperience')}</p>
                       </div>
                     </div>
                   </div>
@@ -314,7 +314,9 @@ function App() {
                     }}
                   >
                     <h2 className="text-4xl font-bold mb-6">{t('aboutTitle')}</h2>
-                    <p className="text-gray-600 mb-6 text-lg">{t('aboutDesc')}</p>
+                    <p className="text-gray-600 mb-6 text-lg">{t('aboutDesc1')}</p>
+                    <p className="text-gray-600 mb-6 text-lg">{t('aboutDesc2')}</p>
+                    <p className="text-gray-600 mb-6 text-lg">{t('aboutDesc3')}</p>
                     <div 
                       className="grid grid-cols-2 gap-6 mb-8"
                       style={{
@@ -324,34 +326,9 @@ function App() {
                         transitionDelay: '100ms'
                       }}
                     >
-                      <div className="border-l-4 border-blue-600 pl-4">
-                        <p className="text-3xl font-bold text-blue-600">2000+</p>
-                        <p className="text-gray-600">{t('projectsCompleted')}</p>
-                      </div>
-                      <div className="border-l-4 border-blue-600 pl-4">
-                        <p className="text-3xl font-bold text-blue-600">98%</p>
-                        <p className="text-gray-600">{t('clientSatisfaction')}</p>
-                      </div>
-                      <div className="border-l-4 border-blue-600 pl-4">
-                        <p className="text-3xl font-bold text-blue-600">24/7</p>
-                        <p className="text-gray-600">{t('emergencyService')}</p>
-                      </div>
-                      <div className="border-l-4 border-blue-600 pl-4">
-                        <p className="text-3xl font-bold text-blue-600">15+</p>
-                        <p className="text-gray-600">{t('yearsExperience')}</p>
-                      </div>
+                      
                     </div>
-                    <p 
-                      className="text-gray-600 text-lg"
-                      style={{
-                        opacity: aboutInView ? 1 : 0,
-                        transform: aboutInView ? 'translateY(0)' : 'translateY(20px)',
-                        transition: 'all 0.5s ease-out',
-                        transitionDelay: '200ms'
-                      }}
-                    >
-                      {t('expertTeamDesc')}
-                    </p>
+                    
                   </div>
                 </div>
               </div>
@@ -363,10 +340,10 @@ function App() {
                     <h2 className="text-4xl font-bold mb-6">{t('whyChooseUs')}</h2>
                     <div className="space-y-6">
                       {[
-                        { title: 'expertTeam', description: 'expertTeamShort' },
                         { title: 'qualityService', description: 'qualityServiceDesc' },
-                        { title: 'support', description: 'supportDesc' },
-                        { title: 'pricing', description: 'pricingDesc' },
+                        { title: 'expertTeam', description: 'expertTeamShort' },
+                        { title: 'material', description: 'materialDesc' },
+                        { title: 'result', description: 'resultDesc' },
                       ].map((item, index) => (
                         <div key={index} className="flex items-start">
                           <div className="h-6 w-6 rounded-full bg-blue-600 flex-shrink-0 mt-1"></div>

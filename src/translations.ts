@@ -37,7 +37,10 @@ export const translations: Translations = {
 
     // About Section
     aboutTitle: 'Om KMK VVS',
-    aboutDesc: 'Siden vores etablering har KMK VVS været førende inden for levering af exceptionelle VVS- og installationsservices i regionen. Vores engagement i kvalitet, pålidelighed og kundetilfredshed har gjort os til et betroet navn i branchen.',
+    aboutDesc1: 'Vi er et lille firma opstartet i 2017 med beliggenhed i Hillerød, Nordsjælland som udfører VVS arbejde for entreprenører, erhvervs samt private kunder.',
+    aboutDesc2: 'Vi har specialisere os i udførelse af Renoveringer, Badeværelser, Nybyggeri, Varmekilder (Varmepumper/Fjernvarme Installationer), Vandbehandlingsanlæg samt Vandfiltre.',
+    aboutDesc3: 'Hos os får du professionelle fagfolk som går op i at udføre det bedste arbejde med det bedste resultat første gang - hver gang.',
+    projectsCompleted: 'Projects Completed',
     projectsCompleted: 'Projekter Gennemført',
     clientSatisfaction: 'Kundetilfredshed',
     emergencyService: 'Døgnservice',
@@ -46,14 +49,14 @@ export const translations: Translations = {
 
     // Why Choose Us Section
     whyChooseUs: 'Hvorfor Vælge KMK VVS?',
-    expertTeam: 'Ekspertteam',
-    expertTeamShort: 'Højt kvalificerede og certificerede fagfolk',
-    qualityService: 'Kvalitetsservice',
+    qualityService: 'Autoriseret VVS & VE Installatør',
     qualityServiceDesc: 'Premium kvalitetsarbejde med øje for detaljen',
-    support: '24/7 Support',
-    supportDesc: 'Døgnvagt tilgængelig',
-    pricing: 'Konkurrencedygtige Priser',
-    pricingDesc: 'Fair og gennemsigtig prissætning for alle services',
+    expertTeam: 'Professionelle fagfolk',
+    expertTeamShort: 'Mange års erfaring',
+    material: 'Materialer af høj kvalitet',
+    materialDesc: 'Holdbare løsninger',
+    result: 'Fokus på det gode resultat',
+    resultDesc: 'Korrekt materiale valg',
 
     // Contact Section
     contactTitle: 'Kontakt Os',
@@ -100,7 +103,9 @@ export const translations: Translations = {
 
     // About Section
     aboutTitle: 'About KMK VVS',
-    aboutDesc: 'Since our establishment, KMK VVS has been at the forefront of providing exceptional plumbing and installation services across the region. Our commitment to quality, reliability, and customer satisfaction has made us a trusted name in the industry.',
+    aboutDesc1: 'We are a small company started in 2017 and located in Hillerød, North Zealand, which performs plumbing work for contractors, businesses and private customers.',
+    aboutDesc2: 'We specialize in performing Renovations, Bathrooms, New Construction, Heat Sources (Heat Pumps/District Heating Installations), Water Treatment Plants and Water Filters.',
+    aboutDesc3: 'With us you get professional professionals who are committed to doing the best work with the best results the first time - every time.',
     projectsCompleted: 'Projects Completed',
     clientSatisfaction: 'Client Satisfaction',
     emergencyService: 'Emergency Service',
@@ -109,14 +114,14 @@ export const translations: Translations = {
 
     // Why Choose Us Section
     whyChooseUs: 'Why Choose KMK VVS?',
-    expertTeam: 'Expert Team',
-    expertTeamShort: 'Highly skilled and certified professionals',
-    qualityService: 'Quality Service',
+    qualityService: 'Authorized VVS & VE Installer',
     qualityServiceDesc: 'Premium quality work with attention to detail',
-    support: '24/7 Support',
-    supportDesc: 'Round-the-clock emergency service available',
-    pricing: 'Competitive Pricing',
-    pricingDesc: 'Fair and transparent pricing for all services',
+    expertTeam: 'Expert Team',
+    expertTeamShort: 'Highly skilled and certified professionals with many years of experience',
+    material: 'High quality materials',
+    materialDesc: 'Durable solutions',
+    result: 'Focus on the good result',
+    resultDesc: 'Correct material selection',
 
     // Contact Section
     contactTitle: 'Contact Us',
