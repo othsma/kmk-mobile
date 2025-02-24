@@ -137,7 +137,7 @@ function App() {
             >
               {t('contact')}
             </a>
-            <div className={`hidden md:flex space-x-4 transition-colors duration-300 ${
+            <div className={`md:flex space-x-4 transition-colors duration-300 ${
             scrollPercentage > 1 ? 'text-gray-800' : 'text-white'
           }`}>
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
@@ -426,7 +426,7 @@ function App() {
                 >
                   English
                 </button>
-                <div className="hidden md:flex space-x-4">
+                <div className="md:flex space-x-4">
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400 transition">
               <FontAwesomeIcon icon={faFacebook} size="lg" />
             </a>
