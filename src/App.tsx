@@ -96,8 +96,8 @@ function App() {
         <div className="flex items-center justify-between max-w-7xl mx-auto">
           <div className="flex-shrink-0">
             {scrollPercentage > 1 ? 
-              <img src="https://github.com/Othsmatou/kmk2.0/blob/main/src/altLogo.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" /> : 
-              <img src="https://github.com/Othsmatou/kmk2.0/blob/main/src/logo.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" />
+              <img src="https://github.com/Othsmatou/kmk2.0/blob/main/altLogo2.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" /> : 
+              <img src="https://github.com/Othsmatou/kmk2.0/blob/main/logo2.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" />
             }
           </div>
           <div className={`hidden md:flex space-x-8 transition-colors duration-300 ${
@@ -217,13 +217,7 @@ function App() {
                     className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition text-lg"
                     onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
                   >
-                    {t('ourServices')}
-                  </button>
-                  <button 
-                    className="border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition text-lg"
-                    onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                  >
-                    {t('contactUs')}
+                    {t('latestProject')}
                   </button>
                 </div>
               </div>

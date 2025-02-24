@@ -12,9 +12,9 @@ export const translations: Translations = {
     contact: 'Kontakt',
 
     // Hero Section
-    heroTitle: 'Professionel VVS & Installationsservice',
+    heroTitle: 'Din Autoriserede VVS & VE Installatør',
     heroSubtitle: 'Din betroede partner til alle VVS-, varme- og renoveringsopgaver',
-    ourServices: 'Vores Ydelser',
+    latestProject: 'Lattest Projects',
     contactUs: 'Kontakt Os',
 
     // Services Section
@@ -75,9 +75,9 @@ export const translations: Translations = {
     contact: 'Contact',
 
     // Hero Section
-    heroTitle: 'Professional Plumbing & Installation Services',
+    heroTitle: 'Authorized Plumbing & Renewable Energy Installer',
     heroSubtitle: 'Your trusted partner for all plumbing, heating, and renovation needs',
-    ourServices: 'Our Services',
+    latestProject: 'Latest Projects',
     contactUs: 'Contact Us',
 
     // Services Section
