@@ -165,7 +165,7 @@ function App() {
           {showButton && (
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="fixed right-4 w-14 h-14 flex items-center justify-center bg-white/90 backdrop-blur-sm rounded-full shadow-lg hover:bg-white transition-colors z-50 group"
+              className="fixed right-4 w-14 h-14 flex items-center justify-center bg-white/90 backdrop-blur-sm rounded-full shadow-lg hover:bg-white transition-colors z-50 group back-to-top-button"
               aria-label="Back to top"
               style={{ bottom: scrollPercentage > 95 ? '5%' : '4rem' }}
             >
@@ -230,7 +230,7 @@ function App() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12 md:mt-24">
                   <button 
                     className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition text-lg"
-                    onClick={() => window.open('https://www.instagram.com:kmkvvsaps', '_blank')}
+                    onClick={() => window.open('https://www.instagram.com/kmkvvsaps', '_blank')}
                   >
                     {t('latestProject')}
                   </button>
