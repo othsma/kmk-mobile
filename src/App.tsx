@@ -281,7 +281,7 @@ function App() {
                         transitionDelay: `${index * 100}ms`
                       }}
                     >
-                      <div className="mb-4">{service.icon}</div>
+                      <div className="mb-4"><img src={service.icon.props.src} alt={service.icon.props.alt} style={{width: '50px', height: '50px'}} /></div>
                       <h3 className="text-xl font-bold mb-3">{t(service.title)}</h3>
                       <div className="text-gray-600" dangerouslySetInnerHTML={{ __html: t(service.description) }} />
                     </div>
