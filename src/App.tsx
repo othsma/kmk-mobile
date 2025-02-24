@@ -270,7 +270,7 @@ function App() {
                     { icon: <Droplets className="w-12 h-12 text-blue-600" />, title: 'waterTreatment', description: 'waterDesc' },
                     { icon: <Flame className="w-12 h-12 text-blue-600" />, title: 'heatSources', description: 'heatDesc' },
                     { icon: <Building2 className="w-12 h-12 text-blue-600" />, title: 'newConstruction', description: 'constructionDesc' },
-                    { icon: <PaintBucket className="w-12 h-12 text-blue-600" />, title: 'renovationTasks', description: 'renovationDesc' },
+                    { icon: <PaintBucket className="w-12 h-12 text-blue-600" />, title: 'energyTasks', description: 'energyDesc' },
                   ].map((service, index) => (
                     <div
                       key={index}
@@ -283,7 +283,7 @@ function App() {
                     >
                       <div className="mb-4">{service.icon}</div>
                       <h3 className="text-xl font-bold mb-3">{t(service.title)}</h3>
-                      <p className="text-gray-600">{t(service.description)}</p>
+                      <div className="text-gray-600" dangerouslySetInnerHTML={{ __html: t(service.description) }} />
                     </div>
                   ))}
                 </div>
