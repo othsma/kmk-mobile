@@ -19,7 +19,7 @@ export const translations: Translations = {
 
     // Services Section
     servicesTitle: 'Vores Ydelser',
-    servicesSubtitle: 'Omfattende løsninger til alle dine VVS-behov',
+    servicesSubtitle: 'Omfattende løsninger til dine VVS-behov',
     
     // Service Items
     plumbingTasks: 'Renoverings opgaver',
@@ -84,7 +84,7 @@ export const translations: Translations = {
 
     // Services Section
     servicesTitle: 'Our Services',
-    servicesSubtitle: 'Comprehensive solutions for all your plumbing needs',
+    servicesSubtitle: 'Comprehensive solutions for your plumbing needs',
     
     // Service Items
     plumbingTasks: 'Renovation Tasks',

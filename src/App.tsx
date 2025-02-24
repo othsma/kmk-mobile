@@ -338,27 +338,27 @@ function App() {
 
         {/* Contact Section */}
         <div id="contact" className="bg-gray-900 text-white py-20">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto px-6 ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div>
                 <h2 className="text-4xl font-bold mb-6">{t('contactTitle')}</h2>
                 <p className="text-gray-400 mb-8">{t('contactDesc')}</p>
-                <div className="space-y-6">
-                  <div className="flex items-center">
+               
+              </div>
+              <div className="contact-info space-y-6 md:text-right">
+                  <div className="flex items-center md:justify-end">
                     <Phone className="w-6 h-6 mr-4" />
                     <span>+45 40 60 94 01</span>
                   </div>
-                  <div className="flex items-center">
+                  <div className="flex items-center md:justify-end">
                     <Mail className="w-6 h-6 mr-4" />
                     <span>kmk@kmkvvs.dk</span>
                   </div>
-                  <div className="flex items-center">
+                  <div className="flex items-center md:justify-end">
                     <Info className="w-6 h-6 mr-4" />
                     <span>{t('vat')}</span>
                   </div>
                 </div>
-              </div>
-              
             </div>
            
           </div>
