@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { 
-  Wrench, 
-  ShowerHead as Shower, 
-  Droplets, 
-  Flame, 
+  Wrench,
+  ShowerHead as Shower,
+  } from 'lucide-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import {
+  Droplets,
+  Flame,
   Building2, 
   PaintBucket,
   Phone,
@@ -133,6 +137,16 @@ function App() {
             >
               {t('contact')}
             </a>
+            <div className={`hidden md:flex space-x-4 transition-colors duration-300 ${
+            scrollPercentage > 1 ? 'text-gray-800' : 'text-white'
+          }`}>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
+              <FontAwesomeIcon icon={faFacebook} size="lg" />
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
+              <FontAwesomeIcon icon={faInstagram} size="lg" />
+            </a>
+          </div>
           </div>
         </div>
       </nav>
@@ -477,6 +491,14 @@ function App() {
                 >
                   English
                 </button>
+                <div className="hidden md:flex space-x-4">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400 transition">
+              <FontAwesomeIcon icon={faFacebook} size="lg" />
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400 transition">
+              <FontAwesomeIcon icon={faInstagram} size="lg" />
+            </a>
+          </div>
               </div>
             </div>
           </div>
