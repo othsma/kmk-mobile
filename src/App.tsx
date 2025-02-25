@@ -101,7 +101,7 @@ function App() {
         <div className="flex items-center justify-between max-w-7xl mx-auto">
           <div className="flex-shrink-0">
             {scrollPercentage > 1 ? 
-              <img src="https://github.com/othsma/kmk-mobile/blob/main/src/altLogo.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" /> : 
+              <img src="https://github.com/othsma/kmk-mobile/blob/main/src/altLogo2.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" /> : 
               <img src="https://github.com/othsma/kmk-mobile/blob/main/src/logo2.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" />
             }
           </div>
@@ -339,7 +339,7 @@ function App() {
         {/* Contact Section */}
         <div id="contact" className="bg-gray-900 text-white py-20">
           <div className="container mx-auto px-6 ">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
               <div>
                 <h2 className="text-4xl font-bold mb-6">{t('contactTitle')}</h2>
                 <p className="text-gray-400 mb-8">{t('contactDesc')}</p>

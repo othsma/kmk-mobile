@@ -49,13 +49,13 @@ export const translations: Translations = {
     // Why Choose Us Section
     whyChooseUs: 'Hvorfor Vælge KMK VVS?',
     qualityService: 'Autoriseret VVS & VE Installatør',
-    qualityServiceDesc: 'Premium kvalitetsarbejde med øje for detaljen',
+    qualityServiceDesc: 'Din garanti for kvalitet og tryghed',
     expertTeam: 'Professionelle fagfolk',
     expertTeamShort: 'Mange års erfaring',
     material: 'Materialer af høj kvalitet',
-    materialDesc: 'Holdbare løsninger',
+    materialDesc: 'Korrekt materiale valg',
     result: 'Fokus på det gode resultat',
-    resultDesc: 'Korrekt materiale valg',
+    resultDesc: 'Holdbare løsninger',
 
     // Contact Section
     contactTitle: 'Kontakt Os',
@@ -114,13 +114,13 @@ export const translations: Translations = {
     // Why Choose Us Section
     whyChooseUs: 'Why Choose KMK VVS?',
     qualityService: 'Authorized VVS & VE Installer',
-    qualityServiceDesc: 'Premium quality work with attention to detail',
+    qualityServiceDesc: 'Quality and security guaranteed',
     expertTeam: 'Expert Team',
     expertTeamShort: 'Highly skilled and certified professionals with many years of experience',
     material: 'High quality materials',
-    materialDesc: 'Durable solutions',
+    materialDesc: 'Correct material selection',
     result: 'Focus on the good result',
-    resultDesc: 'Correct material selection',
+    resultDesc: 'Durable solutions',
 
     // Contact Section
     contactTitle: 'Contact Us',
