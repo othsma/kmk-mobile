@@ -106,7 +106,7 @@ function App() {
             }
           </div>
           <div className={`space-x-4 transition-colors duration-300 ${
-            scrollPercentage > 1 ? 'text-gray-800' : 'text-white'
+            scrollPercentage > 1 ? 'text-[#c09f76]' : 'text-white'
           }`}>
             <a href="https://www.facebook.com/people/G-Teknik-ApS/100063713580343/#" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
               <FontAwesomeIcon icon={faFacebook} size="lg" />
