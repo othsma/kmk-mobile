@@ -101,8 +101,8 @@ function App() {
         <div className="flex items-center justify-between max-w-7xl mx-auto">
           <div className="flex-shrink-0">
             {scrollPercentage > 1 ? 
-              <img src="https://github.com/othsma/kmk-mobile/blob/main/src/altLogo2.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" /> : 
-              <img src="https://github.com/othsma/kmk-mobile/blob/main/src/logo2.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" />
+              <img src="https://github.com/othsma/kmk-mobile/blob/main/src/altLogo3.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" /> : 
+              <img src="https://github.com/othsma/kmk-mobile/blob/main/src/logo3.png?raw=true" alt="KMK VVS Logo" className="h-12 w-auto" />
             }
           </div>
           <div className={`space-x-4 transition-colors duration-300 ${
